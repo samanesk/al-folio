@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 group :jekyll_plugins do
+	gem 'nokogiri'
+	gem 'rack', '~> 2.0.1'
+	gem 'rspec'
     gem 'jekyll'
     gem 'jekyll-diagrams'
     gem 'jekyll-email-protect'
