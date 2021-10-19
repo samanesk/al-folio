@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: <a href="https://www.sydney.edu.au/">the University of Sydney</a> 
+description: Research Fellow at the <a href="https://www.sydney.edu.au/">University of Sydney</a> 
 
 profile:
   align: right
