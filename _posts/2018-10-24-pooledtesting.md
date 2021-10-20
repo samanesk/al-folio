@@ -36,7 +36,7 @@ _styles: >
 
 ---
 **Note:**
-A thought piece also featured in <a href="https://www.sydney.edu.au/content/dam/corporate/documents/business-school/research/itls/_thinking-series_2020-pieces_final-2021-01-21.pdf">Thinking Outside the Box Thought Pieces Series 2020</a>  
+A thought piece also featured in <a href="https://www.sydney.edu.au/content/dam/corporate/documents/business-school/research/itls/_thinking-series_2020-pieces_final-2021-01-21.pdf#page=35">Thinking Outside the Box Thought Pieces Series 2020</a>  
 
 ***
 
@@ -50,13 +50,13 @@ University.
 Prompt detection of the Sars-COV-2 virus is vital to the government’s approach to track and
 contain the COVID-19 outbreak. Currently, testing occurs only in symptomatic individuals or close
 contacts of those with confirmed disease. But an infected individual can be shedding virus for
-days prior the development of any symptoms  <a href="https://www.cdc.gov/mmwr/volumes/69/wr/mm6914e1.htm">[1]</a>, and some may not get any symptoms at all [[2]](https://www.acpjournals.org/doi/10.7326/M20-3012).
+days prior the development of any symptoms  <a href="https://www.cdc.gov/mmwr/volumes/69/wr/mm6914e1.htm">[1]</a>, and some may not get any symptoms at all <a href="https://www.acpjournals.org/doi/10.7326/M20-3012">[2]</a>.
 
 Extensive testing of the local population within a “hotspot” can ensure that infected people are
 identified and quarantined before they infect others. However, it is also beyond Australia’s
 budget and testing capacity to perform so many tests. A solution to this problem is pooled testing.
 Pooled testing, as the name suggests, is the pooling together of a group of samples to run
-only one test [[3]](https://healthpolicy.usc.edu/research/getting-americans-back-to-work-and-school-with-pooled-testing/). For example, every week all households in one street could collect their own
+only one test <a href = "https://healthpolicy.usc.edu/research/getting-americans-back-to-work-and-school-with-pooled-testing">[3]</a>. For example, every week all households in one street could collect their own
 samples of saliva [[4]](https://www.abc.net.au/news/health/2020-07-01/new-saliva-test-for-covid-19-how-accurate-is-it/12406912), mail those samples to a testing centre or deposit them in a testing bin
 (methods already in use for screening programs such as Bowel Cancer screening). The lab then
 combines together all the saliva samples from one household, or one street, or even one suburb,
