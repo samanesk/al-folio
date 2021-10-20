@@ -13,7 +13,6 @@ authors:
     affiliations:
       name: ITLS, University of Sydney
 
-bibliography: 2018-12-22-distill.bib
 
 # Below is an example of injecting additional post-specific styles.
 # If you use this post as a template, delete this _styles block.
@@ -35,236 +34,69 @@ _styles: >
 
 ---
 
-**NOTE:**
-Citations, footnotes, and code blocks do not display correctly in the dark mode since distill does not support the dark mode by default.
-If you are interested in correctly adding dark mode support for distill, please open [a discussion](https://github.com/alshedivat/al-folio/discussions) and let us know.
-
-
-## Equations
-
-This theme supports rendering beautiful math in inline and display modes using [MathJax 3](https://www.mathjax.org/) engine.
-You just need to surround your math expression with `$$`, like `$$ E = mc^2 $$`.
-If you leave it inside a paragraph, it will produce an inline expression, just like $$ E = mc^2 $$.
-
-To use display mode, again surround your expression with `$$` and place it as a separate paragraph.
-Here is an example:
-
-$$
-\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
-$$
-
-Note that MathJax 3 is [a major re-write of MathJax](https://docs.mathjax.org/en/latest/upgrading/whats-new-3.0.html) that brought a significant improvement to the loading and rendering speed, which is now [on par with KaTeX](http://www.intmath.com/cg5/katex-mathjax-comparison.php).
-
-
-***
-
-## Citations
-
-Citations are then used in the article body with the `<d-cite>` tag.
-The key attribute is a reference to the id provided in the bibliography.
-The key attribute can take multiple ids, separated by commas.
-
-The citation is presented inline like this: <d-cite key="gregor2015draw"></d-cite> (a number that displays more information on hover).
-If you have an appendix, a bibliography is automatically created and populated in it.
-
-Distill chose a numerical inline citation style to improve readability of citation dense articles and because many of the benefits of longer citations are obviated by displaying more information on hover.
-However, we consider it good style to mention author last names if you discuss something at length and it fits into the flow well — the authors are human and it’s nice for them to have the community associate them with their work.
-
-***
-
-## Footnotes
-
-Just wrap the text you would like to show up in a footnote in a `<d-footnote>` tag.
-The number of the footnote will be automatically generated.<d-footnote>This will become a hoverable footnote.</d-footnote>
-
-***
-
-## Code Blocks
-
-Syntax highlighting is provided within `<d-code>` tags.
-An example of inline code snippets: `<d-code language="html">let x = 10;</d-code>`.
-For larger blocks of code, add a `block` attribute:
-
-<d-code block language="javascript">
-  var x = 25;
-  function(x) {
-    return x * x;
-  }
-</d-code>
-
-**Note:** `<d-code>` blocks do not look well in the dark mode.
-You can always use the default code-highlight using the `highlight` liquid tag:
-
-{% highlight javascript %}
-var x = 25;
-function(x) {
-  return x * x;
-}
-{% endhighlight %}
-
-***
-
-## Layouts
-
-The main text column is referred to as the body.
-It is the assumed layout of any direct descendants of the `d-article` element.
-
-<div class="fake-img l-body">
-  <p>.l-body</p>
-</div>
-
-For images you want to display a little larger, try `.l-page`:
-
-<div class="fake-img l-page">
-  <p>.l-page</p>
-</div>
-
-All of these have an outset variant if you want to poke out from the body text a little bit.
-For instance:
-
-<div class="fake-img l-body-outset">
-  <p>.l-body-outset</p>
-</div>
-
-<div class="fake-img l-page-outset">
-  <p>.l-page-outset</p>
-</div>
-
-Occasionally you’ll want to use the full browser width.
-For this, use `.l-screen`.
-You can also inset the element a little from the edge of the browser by using the inset variant.
-
-<div class="fake-img l-screen">
-  <p>.l-screen</p>
-</div>
-<div class="fake-img l-screen-inset">
-  <p>.l-screen-inset</p>
-</div>
-
-The final layout is for marginalia, asides, and footnotes.
-It does not interrupt the normal flow of `.l-body` sized text except on mobile screen sizes.
-
-<div class="fake-img l-gutter">
-  <p>.l-gutter</p>
-</div>
-
-
-Emphasis, aka italics, with *asterisks* or _underscores_.
-
-Strong emphasis, aka bold, with **asterisks** or __underscores__.
-
-Combined emphasis with **asterisks and _underscores_**.
-
-Strikethrough uses two tildes. ~~Scratch this.~~
-
-1. First ordered list item
-2. Another item
-⋅⋅* Unordered sub-list. 
-1. Actual numbers don't matter, just that it's a number
-⋅⋅1. Ordered sub-list
-4. And another item.
-
-⋅⋅⋅You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we'll use three here to also align the raw Markdown).
-
-⋅⋅⋅To have a line break without a paragraph, you will need to use two trailing spaces.⋅⋅
-⋅⋅⋅Note that this line is separate, but within the same paragraph.⋅⋅
-⋅⋅⋅(This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)
-
-* Unordered list can use asterisks
-- Or minuses
-+ Or pluses
-
-[I'm an inline-style link](https://www.google.com)
-
-[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
-
-[I'm a reference-style link][Arbitrary case-insensitive reference text]
-
-[I'm a relative reference to a repository file](../blob/master/LICENSE)
-
-[You can use numbers for reference-style link definitions][1]
-
-Or leave it empty and use the [link text itself].
-
-URLs and URLs in angle brackets will automatically get turned into links. 
-http://www.example.com or <http://www.example.com> and sometimes 
-example.com (but not on Github, for example).
-
-Some text to show that the reference links can follow later.
-
-[arbitrary case-insensitive reference text]: https://www.mozilla.org
-[1]: http://slashdot.org
-[link text itself]: http://www.reddit.com
-
-Here's our logo (hover to see the title text):
-
-Inline-style: 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
-
-Reference-style: 
-![alt text][logo]
-
-[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
-
-Inline `code` has `back-ticks around` it.
-
-```javascript
-var s = "JavaScript syntax highlighting";
-alert(s);
-```
- 
-```python
-s = "Python syntax highlighting"
-print s
-```
- 
-```
-No language indicated, so no syntax highlighting. 
-But let's throw in a <b>tag</b>.
-```
-
-Colons can be used to align columns.
-
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
-
-There must be at least 3 dashes separating each header cell.
-The outer pipes (|) are optional, and you don't need to make the 
-raw Markdown line up prettily. You can also use inline Markdown.
-
-Markdown | Less | Pretty
---- | --- | ---
-*Still* | `renders` | **nicely**
-1 | 2 | 3
-
-> Blockquotes are very handy in email to emulate reply text.
-> This line is part of the same quote.
-
-Quote break.
-
-> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote. 
-
-
-Three or more...
-
----
-
-Hyphens
-
-***
-
-Asterisks
-
-___
-
-Underscores
-
-Here's a line for us to start with.
-
-This line is separated from the one above by two newlines, so it will be a *separate paragraph*.
-
-This line is also a separate paragraph, but...
-This line is only separated by a single newline, so it's a separate line in the *same paragraph*.
+The threat of a second wave of COVID-19 looms on the horizon, with case numbers jumping in
+Victoria since the Australian Government’s easing of restrictions. Prime Minister Scott Morrison
+says outbreaks should be anticipated and that the government plans for localised restrictions to
+contain the spread of the virus. “Pooled testing” is a cost-effective method for keeping track of
+the virus by screening targeted/local populations for the virus – shows research at Sydney
+University.
+
+Prompt detection of the Sars-COV-2 virus is vital to the government’s approach to track and
+contain the COVID-19 outbreak. Currently, testing occurs only in symptomatic individuals or close
+contacts of those with confirmed disease. But an infected individual can be shedding virus for
+days prior the development of any symptoms[1](https://www.cdc.gov/mmwr/volumes/69/wr/mm6914e1.htm), and some may not get any symptoms at all[2](https://www.acpjournals.org/doi/10.7326/M20-3012).
+
+Extensive testing of the local population within a “hotspot” can ensure that infected people are
+identified and quarantined before they infect others. However, it is also beyond Australia’s
+budget and testing capacity to perform so many tests. A solution to this problem is pooled testing.
+Pooled testing, as the name suggests, is the pooling together of a group of samples to run
+only one test[3](https://healthpolicy.usc.edu/research/getting-americans-back-to-work-and-school-with-pooled-testing/). For example, every week all households in one street could collect their own
+samples of saliva[4](https://www.abc.net.au/news/health/2020-07-01/new-saliva-test-for-covid-19-how-accurate-is-it/12406912), mail those samples to a testing centre or deposit them in a testing bin
+(methods already in use for screening programs such as Bowel Cancer screening). The lab then
+combines together all the saliva samples from one household, or one street, or even one suburb,
+into a single sample for testing. In this way the number of tests required can be reduced by a
+factor of 10 or more.
+
+Pooled testing makes sense where the disease prevalence (number of cases in a population at
+a given time) is low. If the disease prevalence is high, then most of the grouped samples will be
+positive, which then requires individual testing of all the individuals in that group – rendering
+pooled testing a useless exercise to reduce test numbers.
+
+Since January 22 this year, Australia has performed over two million tests, with an average of
+0. 4% tests returning positive[5](https://www.health.gov.au/news/health-alerts/novel-coronavirus-2019-ncov-health-alert/coronavirus-covid-19-current-situation-and-case-numbers). The incidence (number of new cases in a population) of COVID19 in Australia since May is 0.04-0.58 cases per 100000, and the prevalence is less than 0.1%.
+This makes pooled testing perfect for the Australian scenario.
+
+There are three common pooled testing methods: Simple grouping (S method), Square Array
+grouping (SA method), and Household-based Square Array (HSA method).
+
+In the S method[6](https://healthpolicy.usc.edu/wp-content/uploads/2020/05/USC_Schaeffer_PooledTesting_WhitePaper_FINAL-1.pdf), individual samples are combined together and a single test is run on the
+grouped sample. If the grouped sample tests positive, then each sample is individually tested.
+For our population of 25 million, if the group size is 10, and the prevalence of infected cases in
+the population is one percent, then 2,750,000 tests per week are needed. Though this number
+is a great deal less than 25 million, it is still beyond Australia’s testing capacity.
+
+In the SA method, a grouped sample (with 10 individuals) is further combined with other groups,
+making the group size 100. Individual samples are arranged in a square array of 10 by 10. A
+test is run on combined samples of each column group and each row group. As there are 10
+columns and 10 rows, 20 tests are run. An individual sample is considered positive if its column
+group test or its row group test is positive. For the Australian population, again, we need
+5,000,000 tests per week. The difference with the SA method is that each sample is tested twice,
+and this decreases the probability of a false negative.
+
+The HSA method[7](https://docs.google.com/document/d/1joxMjHdWWo9XLFqfTdNXPQRAfeMjHYEyvVljqNCaKyE/edit) is similar to the SA method, except that each sample is a pooled sample of
+an entire household. A household sample is considered positive if both its column group and its
+row group test is positive. In this case, if a sample is tested positive then a whole household needs
+to be quarantined as the test does not differentiate between members of a household. However,
+as it is quite likely that all members of the household are infected, under current guidelines the
+entire household would most likely be quarantined regardless. This method reduces the required
+number of tests to 2,000,000 per week, assuming a household size of 2.5 people.
+
+With each of these three testing methods, the group sizes can be increased to any number to
+accommodate any population size and any budget. One criticism is that the number of false
+negatives may be too high, but given that the tests are repeated every week, even if some
+infected individuals are not detected in one week, they will most likely be detected in the
+following week. Thus, pooled testing makes testing of a whole population a feasible goal.
+Pooled testing is a method that could enable Australia to test its entire population for COVID19 every week, eliminating the threat of asymptomatic spread and super-spreaders, and
+allowing “targeted” quarantine. With the adoption of testing methods like saliva testing
+(currently not available in Australia), pooled testing allows the rapid lifting of restrictions while
+avoiding a second wave of infection.
