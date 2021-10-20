@@ -33,9 +33,10 @@ _styles: >
     font-size: 16px;
   }
 
+
 ---
 **Note:**
-A thought piece also featured in [Thinking Outside the Box Thought Pieces Series 2020](https://www.sydney.edu.au/content/dam/corporate/documents/business-school/research/itls/_thinking-series_2020-pieces_final-2021-01-21.pdf) 
+A thought piece also featured in <a href="https://www.sydney.edu.au/content/dam/corporate/documents/business-school/research/itls/_thinking-series_2020-pieces_final-2021-01-21.pdf">Thinking Outside the Box Thought Pieces Series 2020</a>  
 
 ***
 
@@ -49,7 +50,7 @@ University.
 Prompt detection of the Sars-COV-2 virus is vital to the government’s approach to track and
 contain the COVID-19 outbreak. Currently, testing occurs only in symptomatic individuals or close
 contacts of those with confirmed disease. But an infected individual can be shedding virus for
-days prior the development of any symptoms [[1]](https://www.cdc.gov/mmwr/volumes/69/wr/mm6914e1.htm), and some may not get any symptoms at all [[2]](https://www.acpjournals.org/doi/10.7326/M20-3012).
+days prior the development of any symptoms  <a href="https://www.cdc.gov/mmwr/volumes/69/wr/mm6914e1.htm">[1]</a>, and some may not get any symptoms at all [[2]](https://www.acpjournals.org/doi/10.7326/M20-3012).
 
 Extensive testing of the local population within a “hotspot” can ensure that infected people are
 identified and quarantined before they infect others. However, it is also beyond Australia’s
