@@ -2,7 +2,7 @@
 layout: distill
 title: Pooled testing to help Australia tackle the second wave of COVID-19
 description: 
-date: 2020-09-24
+date: 2020-08-24
 
 authors:
   - name: Saman Eskandarzadeh
@@ -13,6 +13,7 @@ authors:
     affiliations:
       name: ITLS, University of Sydney
 
+bibliography:
 
 # Below is an example of injecting additional post-specific styles.
 # If you use this post as a template, delete this _styles block.
@@ -66,8 +67,8 @@ a given time) is low. If the disease prevalence is high, then most of the groupe
 positive, which then requires individual testing of all the individuals in that group – rendering
 pooled testing a useless exercise to reduce test numbers.
 
-Since January 22 this year, Australia has performed over two million tests, with an average of
-0. 4% tests returning positive[[5]](https://www.health.gov.au/news/health-alerts/novel-coronavirus-2019-ncov-health-alert/coronavirus-covid-19-current-situation-and-case-numbers). The incidence (number of new cases in a population) of COVID19 in Australia since May is 0.04-0.58 cases per 100000, and the prevalence is less than 0.1%.
+Since January 22 this year, Australia has performed over two million tests, with an average of 0.4% 
+tests returning positive[[5]](https://www.health.gov.au/news/health-alerts/novel-coronavirus-2019-ncov-health-alert/coronavirus-covid-19-current-situation-and-case-numbers). The incidence (number of new cases in a population) of COVID19 in Australia since May is 0.04-0.58 cases per 100000, and the prevalence is less than 0.1%.
 This makes pooled testing perfect for the Australian scenario.
 
 There are three common pooled testing methods: Simple grouping (S method), Square Array
@@ -104,3 +105,6 @@ Pooled testing is a method that could enable Australia to test its entire popula
 allowing “targeted” quarantine. With the adoption of testing methods like saliva testing
 (currently not available in Australia), pooled testing allows the rapid lifting of restrictions while
 avoiding a second wave of infection.
+
+___
+
