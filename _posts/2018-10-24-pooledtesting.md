@@ -8,7 +8,7 @@ authors:
   - name: Saman Eskandarzadeh
     affiliations:
       name: ITLS, University of Sydney
-  - name: Behnam Fahimnia
+  - name: Ben Fahimnia
     url: "https://www.sydney.edu.au/business/about/our-people/academic-staff/ben-fahimnia.html"
     affiliations:
       name: ITLS, University of Sydney
@@ -36,7 +36,9 @@ _styles: >
 
 ---
 **Note:**
-A thought piece also featured in <a href="https://www.sydney.edu.au/content/dam/corporate/documents/business-school/research/itls/_thinking-series_2020-pieces_final-2021-01-21.pdf#page=35">Thinking Outside the Box Thought Pieces Series 2020</a>  
+A thought piece also featured in <a href="https://www.sydney.edu.au/content/dam/corporate/documents/business-school/research/itls/_thinking-series_2020-pieces_final-2021-01-21.pdf#page=35">Thinking Outside the Box Thought Pieces Series 2020</a>. 
+The ideas and suggestions in this thought piece received good media attention and interest (e.g., [ABC News](https://www.abc.net.au/news/2020-11-01/coronavirus-tests-in-australia-rise-could-pool-testing-help/12806524), [newsGP](https://www1.racgp.org.au/newsgp/clinical/covid-trade-offs-how-to-keep-testing-rates-high))  
+ 
 
 ***
 
