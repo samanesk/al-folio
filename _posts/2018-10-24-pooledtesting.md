@@ -41,7 +41,15 @@ The ideas and suggestions in this thought piece received good media attention an
  
 
 ***
-<img src = "novel pooled_h.jpg" alt = "Credit: PAHO/WHO">
+# <img src = "novel pooled_h.jpg" alt = "Credit: PAHO/WHO">
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/novel pooled_h.jpg" data-zoomable>
+    </div>
+</div>
+<div class="caption">
+    Credit: PAHO/WHO
+</div>
 
 The threat of a second wave of COVID-19 looms on the horizon, with case numbers jumping in
 Victoria since the Australian Government’s easing of restrictions. Prime Minister Scott Morrison
