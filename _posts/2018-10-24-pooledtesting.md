@@ -41,6 +41,7 @@ The ideas and suggestions in this thought piece received good media attention an
  
 
 ***
+<img src = "novel pooled_h.jpg" alt = "Credit: PAHO/WHO">
 
 The threat of a second wave of COVID-19 looms on the horizon, with case numbers jumping in
 Victoria since the Australian Government’s easing of restrictions. Prime Minister Scott Morrison
