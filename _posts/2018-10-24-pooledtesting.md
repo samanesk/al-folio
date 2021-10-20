@@ -1,8 +1,8 @@
 ---
 layout: distill
 title: Pooled testing to help Australia tackle the second wave of COVID-19
-description: a though piece also featured in [Thinking Outside the Box Thought Pieces Series](https://www.sydney.edu.au/content/dam/corporate/documents/business-school/research/itls/_thinking-series_2020-pieces_final-2021-01-21.pdf) 
-date: 2021-10-20
+description: 
+date: 2020-09-24
 
 authors:
   - name: Saman Eskandarzadeh
@@ -33,6 +33,10 @@ _styles: >
   }
 
 ---
+**Note:**
+A thought piece also featured in [Thinking Outside the Box Thought Pieces Series 2020](https://www.sydney.edu.au/content/dam/corporate/documents/business-school/research/itls/_thinking-series_2020-pieces_final-2021-01-21.pdf) 
+
+***
 
 The threat of a second wave of COVID-19 looms on the horizon, with case numbers jumping in
 Victoria since the Australian Government’s easing of restrictions. Prime Minister Scott Morrison
