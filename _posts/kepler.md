@@ -1,3 +1,10 @@
+---
+layout: post
+title: a post with code
+date: 2015-07-15 15:09:00
+description: an example of a blog post with some code
+---
+
 https://docs.kepler.gl/docs/keplergl-jupyter#2-add-data
 
 
