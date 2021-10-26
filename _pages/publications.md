@@ -9,7 +9,7 @@ nav: true
 <div class="publications">
 
 {% for y in [2021] %}
-  <h2 class="year">{{2021}}</h2>
+  <h2 class="year">{{y}}</h2>
   {% bibliography -f papers -q @*[year={{2021}}]* %}
 {% endfor %}
 
